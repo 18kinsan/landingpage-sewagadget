@@ -56,7 +56,7 @@ p {
 }
 
 img {
-	max-width: 100px;
+	max-width: 100%;
 }
 
 input:focus,
@@ -589,70 +589,6 @@ ol {
 }
 
 /*---------------------
-  Trend
------------------------*/
-
-.trend {
-	padding-top: 80px;
-	padding-bottom: 50px;
-}
-
-.trend__content .section-title h4 {
-	font-size: 20px;
-}
-
-.trend__content .section-title h4:after {
-	bottom: -6px;
-}
-
-.trend__item {
-	overflow: hidden;
-	margin-bottom: 35px;
-}
-
-.trend__item__pic {
-	float: left;
-	margin-right: 25px;
-}
-
-.trend__item__text {
-	overflow: hidden;
-}
-
-.trend__item__text h6 {
-	font-size: 14px;
-	color: #111111;
-	margin-bottom: 5px;
-}
-
-.trend__item__text .rating {
-	line-height: 18px;
-	margin-bottom: 6px;
-}
-
-.trend__item__text .rating i {
-	font-size: 10px;
-	color: #e3c01c;
-	margin-right: -4px;
-}
-
-.trend__item__text .rating i:last-child {
-	margin-right: 0;
-}
-
-.trend__item__text .product__price {
-	color: #111111;
-	font-weight: 600;
-}
-
-.trend__item__text .product__price span {
-	font-size: 14px;
-	color: #b1b0b0;
-	text-decoration: line-through;
-	margin-left: 4px;
-}
-
-/*---------------------
   Discount
 -----------------------*/
 
@@ -889,6 +825,9 @@ ol {
 .footer {
 	padding-top: 50px;
 	background-color: #0e1111;
+}
+.logo_footer img{
+	max-width: 100px;
 }
 
 .tagline__footer p{
@@ -1344,7 +1283,6 @@ ol {
 
 .categories__accordion .card-heading a:after,
 .categories__accordion .card-heading>a.active[aria-expanded=false]:after {
-	content: "";
 	font-size: 14px;
 	font-family: "FontAwesome";
 	color: #666666;
@@ -1354,7 +1292,6 @@ ol {
 }
 
 .categories__accordion .card-heading.active a:after {
-	content: "";
 	font-size: 14px;
 	font-family: "FontAwesome";
 	color: #666666;
@@ -1365,7 +1302,6 @@ ol {
 
 .categories__accordion .card-heading a[aria-expanded=true]:after,
 .categories__accordion .card-heading>a.active:after {
-	content: "";
 	font-size: 14px;
 	font-family: "FontAwesome";
 	color: #666666;
@@ -1564,6 +1500,21 @@ ol {
 	background: #0d0d0d;
 	border-color: #0d0d0d;
 	color: #ffffff;
+}
+
+.tabel_harga {
+	margin: 10px 0;
+
+}
+
+.tabel_harga th {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.tabel_harga td {
+	text-align: right;
+	padding-right: 10px;
 }
 
 /*---------------------
@@ -1789,6 +1740,15 @@ ol {
 .product__details__button ul li a span {
 	font-size: 18px;
 	color: #666666;
+}
+
+.product__details__widget a {
+	color: white;
+	
+}
+
+.product__details__widget .btn {
+	background-color: #0e1111;
 }
 
 .product__details__widget {
